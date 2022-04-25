@@ -86,4 +86,70 @@
 // console.log(arr)
 
 
+//16.How to vaild email
 
+// let email=prompt("enter the emial")
+// function vaildemail(email)
+// {
+// let pattern= /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+// if(pattern.test(email))
+// {
+//     console.log("email is vaild")
+    
+// }else
+// {
+//     console.log("email is invalid")
+// }
+// }
+// vaildemail(email)
+
+
+
+//17.To check whether the array is empty or not
+
+// var arr=[1,2,3,4,5,6]
+// if(arr.length===0)
+// {
+//     console.log("array is empty")
+// }else
+// {
+//     console.log("array is not empty")
+// }
+
+
+
+//18.Whether the number is even or odd
+
+// let num=Number(prompt("enter a number"))
+// if(num%2==0){
+//     console.log("number is even")
+// }else{
+//     console.log("number is odd")
+// }
+
+//19.Even index should be x2
+
+// let arr1=[1,2,3,4,5,6]
+// let even=arr1.map((value,index)=>
+// {
+//     if(index%2==0)
+//     {
+//         return value*2;
+//     }else
+//     {
+//         return value;
+//     }
+// })
+// console.log(even)
+
+//20.Factorial number
+
+// let fact=1
+// let num=Number(prompt("enter a number"))
+// {
+//     for(let i=1;i<num;i++)
+//     {
+//     fact*=i
+//     }
+// }
+// console.log(fact)
